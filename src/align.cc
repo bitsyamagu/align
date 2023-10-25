@@ -307,7 +307,7 @@ int main(int argc, char** argv) {
                 continue;
             }
 
-            std::cerr << "Processing " << line[3] << " " << line[11] << std::endl;
+            std::cerr << "Processing " << line[0] << " " << line[1] << std::endl;
             human.setSequence(humanSeq);
             mouse.setSequence(mouseSeq);
             human.setName(humanID);
