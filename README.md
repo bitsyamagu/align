@@ -21,12 +21,12 @@ To compile the program, you'll need to link against the pthreads and zlib librar
 
 Here is a sample command:
 ```
-g++ -o aligner -lpthread -lz main.cpp
+g++ -o align -lpthread -lz src/align.cc
 ```
 
 ## Usage
 ```
-aligner test1.fa.gz test2.fa.gz id_table.txt
+align test1.fa.gz test2.fa.gz id_table.txt
 ```
 
 ## Limitations
