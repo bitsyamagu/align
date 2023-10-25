@@ -1,5 +1,5 @@
 # align
-Global alignment for pairs of sequences
+A simple global alignment program for pairs of sequences
 
 ## Description
 This repository contains a C++ program that performs sequence alignment using the Smith-Waterman algorithm. The program uses multi-threading with POSIX threads (pthreads) to perform calculations in parallel, significantly speeding up the alignment process.
